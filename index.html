@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Inderio Development</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+  <!-- Importa SweetAlert2 -->
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <script src="/script.js"></script>
+
+
+</head>
+<body>
+
+    <!--Botão Whats-->
+  <a href="https://wa.me/5547997887122" target="_blank" class="whats_canto">
+    <i class="fab fa-whatsapp text-3xl"></i>
+  </a>
+
+
+  <!-- Navbar -->
+  <nav>
+    <div >
+        <img src="/img/Logo_2-removebg-preview.png" alt="logo" class="logo">
+    </div>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#services">Serviços</a></li>
+      <li><a href="#portfolio">Portfólio</a></li>
+      <li><a href="#contact">Contato</a></li>
+    </ul>
+  </nav>
+
+    <!-- Hero Section -->
+  <header id="home">
+  <div class="hero-content">
+    <h1>Transformamos ideias em <span class="highlight">sites incríveis</span></h1>
+    <p>Sites rápidos, responsivos e otimizados para atrair clientes e gerar resultados.</p>
+
+    <div class="hero-buttons">
+      <a href="#contact" class="cta-btn">Solicite seu Orçamento</a>
+      <a href="#portfolio" class="cta-btn secondary">Ver Portfólio</a>
+    </div>
+
+    <div class="hero-features">
+      <div>⚡ Performance Rápida</div>
+      <div>📱 100% Responsivo</div>
+      <div>🎯 SEO Otimizado</div>
+    </div>
+  </div>
+</header>
+
+
+
+
+  <!-- Serviços -->
+  <section id="services">
+    <h2>Serviços</h2>
+    <div class="services">
+      <div class="service">
+        <h3>Sites Institucionais</h3>
+        <p>Mostre sua empresa ao mundo com um site moderno e responsivo.</p>
+      </div>
+      <div class="service">
+        <h3>Lojas Virtuais</h3>
+        <p>E-commerce otimizado para conversão e experiência do cliente.</p>
+      </div>
+      <div class="service">
+        <h3>Aplicações Web</h3>
+        <p>Soluções sob medida para seu negócio crescer no digital.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Portfólio -->
+  <section id="portfolio">
+    <h2>Portfólio</h2>
+    <div class="portfolio">
+      <div class="portfolio-item">
+        <img src="/img/{60A1ECD3-5558-45FC-8D80-F89FCC5CA38A}.png" alt="" class="portfolio-image">
+        <a href="#">Empresa de Advocacia</a>
+      </div>
+      <!--
+      <div class="portfolio-item">Projeto 2</div>
+      <div class="portfolio-item">Projeto 3</div>
+    </div> -->
+  </section>
+
+
+
+  <section id="contact">
+  <h2>Entre em Contato</h2>
+  
+  <div class="contact-container">
+    <!-- Formulário -->
+    <form id="contactForm" class="contact-form">
+      <input type="text" name="name" placeholder="Seu Nome" required>
+      <input type="email" name="email" placeholder="Seu E-mail" required>
+      <textarea name="message" placeholder="Sua Mensagem" required></textarea>
+      <button type="submit">Enviar Mensagem</button>
+
+      <!-- Campos ocultos do Formsubmit -->
+      <input type="hidden" name="_subject" value="Novo contato do site!">
+      <input type="hidden" name="_captcha" value="false">
+      <input type="hidden" name="_template" value="table">
+    </form>
+
+    <!-- Info de Contato -->
+    <div class="contact-info">
+      <p><strong>E-mail:</strong> matheus.santos@inderio.com.br</p>
+      <p><strong>WhatsApp:</strong> (47) 98406-7384</p>
+      <p><strong>Atendimento:</strong> Seg - Sex, 9h às 18h</p>
+      
+      <div class="contact-links">
+        <a href="mailto:matheus.santos@inderio.com.br">📧 E-mail</a>
+        <a href="https://wa.me/5547984067384" target="_blank">💬 WhatsApp</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+  <!-- Footer -->
+  <footer>
+    © 2025 Inderio Development - Todos os direitos reservados.
+  </footer>
+</body>
+</html>
+
+
