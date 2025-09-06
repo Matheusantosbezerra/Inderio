@@ -34,6 +34,59 @@ body {
 }
 /* Botão WhatsApp */
 
+/*header blog*/
+
+.header_blog{
+  background: linear-gradient(90deg, #12151c 60%, #1c1f26 100%);
+  width: 80%;
+  margin: 40px auto 30px auto;
+  padding: 28px 0;
+  text-align: center;
+  border-radius: 18px;
+  border-bottom: 3px solid #9cff00;
+  box-shadow: 0 6px 24px rgba(156, 255, 0, 0.08), 0 1.5px 0 #23272f;
+  transition: box-shadow 0.3s, transform 0.3s;
+  position: relative;
+}
+
+.header_blog:hover {
+  box-shadow: 0 8px 32px rgba(156, 255, 0, 0.18), 0 2px 0 #23272f;
+  transform: translateY(-4px) scale(1.02);
+}
+
+.header_blog h1, .header_blog h2 {
+  color: #9cff00;
+  letter-spacing: 1px;
+  margin-bottom: 8px;
+}
+
+.header_blog ul {
+  list-style: none;
+  padding: 0;
+  margin-right: 50px;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+
+}
+
+.header_blog div {
+  display: flex;
+  margin-left: 50px;
+  justify-content: center;
+  align-items: center;
+}
+
+.header_blog p {
+  color: #ccc;
+  font-size: 1.1rem;
+  margin-top: 6px;
+}
+
+
+
+/*header blog*/
+
 /* Navbar */
 nav {
   position: fixed;
@@ -43,7 +96,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 15px 50px;
+  padding: 15px 100px;
   z-index: 1000;
   border-bottom: 1px solid #1c1f26;
 }

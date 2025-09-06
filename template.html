@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Artigo | Inderio Blog</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<body class="bg-[#0b0e13] text-white">
+
+  <!--Botão Whats-->
+  <a href="https://wa.me/5547984067384" target="_blank" class="whats_canto">
+    <i class="fab fa-whatsapp text-3xl"></i>
+  </a>
+
+  <!-- Cabeçalho -->
+  <nav class="header_blog">
+    <div >
+        <img src="/img/Logo_2-removebg-preview.png" alt="logo" class="logo">
+    </div>
+    <ul>
+      <li><a href="/">Home</a></li>
+      <li><a href="/#services">Serviços</a></li>
+      <li><a href="/#portfolio">Portfólio</a></li>
+      <li><a href="/#contact">Contato</a></li>
+    </ul>
+  </nav>
+
+  <!-- Conteúdo do artigo -->
+  <main id="artigo" class="max-w-3xl mx-auto px-6 py-16"></main>
+
+  <!-- Rodapé -->
+  <footer class="bg-[#0b0e13] text-center py-8 text-gray-500 text-sm">
+    © 2025 Inderio Development - Todos os direitos reservados.
+  </footer>
+
+  <script>
+    async function carregarArtigo() {
+      // Pegar o slug da query string
+      const params = new URLSearchParams(window.location.search);
+      const slug = params.get("slug");
+
+      if (!slug) {
+        document.getElementById("artigo").innerHTML = "<h2 class='text-2xl text-red-400'>Artigo não encontrado.</h2>";
+        return;
+      }
+
+      // Buscar posts
+      const res = await fetch("/posts.json");
+      const posts = await res.json();
+      const post = posts.find(p => p.slug === slug);
+
+      const container = document.getElementById("artigo");
+
+      if (!post) {
+        container.innerHTML = "<h2 class='text-2xl text-red-400'>Artigo não encontrado.</h2>";
+        return;
+      }
+
+      // Atualizar título da página
+      document.title = post.titulo + " | Inderio Blog";
+
+      // Renderizar post
+      container.innerHTML = `
+        <h2 class="text-4xl font-bold text-lime-400 mb-4">${post.titulo}</h2>
+        <p class="text-gray-400 text-sm mb-6">Publicado em ${new Date(post.data).toLocaleDateString("pt-BR")}</p>
+        <img src="${post.imagem}" alt="${post.titulo}" class="rounded-2xl shadow-lg mb-8">
+        <article class="prose prose-invert prose-lg max-w-none">${post.conteudo}</article>
+        <div class="mt-10">
+          <a href="/blog.html" class="px-6 py-3 bg-lime-400 text-black font-semibold rounded-xl shadow-md hover:scale-105 transition-transform">
+            ← Voltar para o Blog
+          </a>
+        </div>
+      `;
+    }
+
+    carregarArtigo();
+  </script>
+</body>
+</html>
