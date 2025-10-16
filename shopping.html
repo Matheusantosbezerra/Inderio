@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Loja - Curso e Produtos</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+  <link rel="icon" type="image/png" href="/img/Logo_2-removebg-preview.png">
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5947014339663196"
+     crossorigin="anonymous"></script>
+  <meta name="google-adsense-account" content="ca-pub-5947014339663196">
+  <style>
+    body {
+      background: linear-gradient(to bottom, #0a0a0a, #111);
+      color: white;
+      font-family: 'Inter', sans-serif;
+    }
+    .neon-button {
+      background-color: #9eff00;
+      color: #000;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+    .neon-button:hover {
+      background-color: #bfff4d;
+      transform: scale(1.05);
+    }
+  </style>
+</head>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-TP2ZSRT6X8"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-TP2ZSRT6X8');
+</script>
+
+
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="header_blog">
+    <div >
+        <img src="/img/Logo_2-removebg-preview.png" alt="logo" class="logo">
+    </div>
+    <ul>
+      <li><a href="/">Home</a></li>
+      <li><a href="/#services">Serviços</a></li>
+      <li><a href="/#portfolio">Portfólio</a></li>
+      <li><a href="/#contact">Contato</a></li>
+    </ul>
+  </nav>
+
+
+  <div class="fixed bottom-20 right-5 bg-[#1a1a1a] border border-[#9eff00] rounded-lg p-4 shadow-lg w-60 animate-bounce">
+    <h4 class="text-[#9eff00] font-bold text-lg mb-2">Blog</h4>
+    <p class="text-gray-300 text-sm mb-3">Confira as novidades do nosso blog!</p>
+    <a href="/blog.html" class="neon-button px-4 py-2 rounded-md text-center block">Explorar</a>
+  </div>
+
+
+
+  <!-- HERO SECTION -->
+  <section class="text-center mt-20 px-5">
+    <h1 class="text-4xl md:text-6xl font-semibold">
+      Aprenda <span class="text-[#9eff00]">Programação</span> do Zero!
+    </h1>
+    <p class="mt-4 text-gray-400 max-w-2xl mx-auto">
+      Domine as principais linguagens e tecnologias para conquistar oportunidades reais no mercado.
+      Lógica de Programação 5 em 1:Portugol,C, C++,Java,Javascript.
+    </p>
+    <div class="mt-6 flex flex-wrap justify-center gap-4">
+      <a href="https://go.hotmart.com/E102125456Y" target="_blank" class="neon-button px-6 py-3 rounded-md">Acessar Curso</a>
+    </div>
+  </section>
+
+  <!-- PRODUTOS AMAZON -->
+  <section class="mt-20 px-5 max-w-6xl mx-auto">
+    <h2 class="text-3xl font-bold text-center mb-10">
+      Produtos Recomendados <span class="text-[#9eff00]">Amazon</span>
+    </h2>
+
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+      <!-- PRODUTO 1 -->
+      <div class="bg-[#1a1a1a] p-4 rounded-lg hover:scale-105 transition">
+        <img src="https://blog.marcusoliveiradev.com.br/wp-content/uploads/2024/06/Review-do-livro-Codigo-Limpo.png" alt="Livro" class="rounded mb-4 w-full h-48 object-cover">
+        <h3 class="text-lg font-semibold mb-2">Codigo Limpo</h3>
+        <p class="text-gray-400 text-sm mb-4">Ideal para seus estudos.</p>
+        <a href="https://amzn.to/3WJKHOA" target="_blank" class="neon-button block text-center py-2 rounded-md">Ver na Amazon</a>
+      </div>
+
+      <!-- PRODUTO 2 -->
+      <div class="bg-[#1a1a1a] p-4 rounded-lg hover:scale-105 transition">
+        <img src="https://m.media-amazon.com/images/I/51ee5YnKOnL._AC_SX679_.jpg" alt="Luminária" class="rounded mb-4 w-full h-48 object-cover">
+        <h3 class="text-lg font-semibold mb-2">Luminária de Mesa LED</h3>
+        <p class="text-gray-400 text-sm mb-4">Perfeito para sua mesa.</p>
+        <a href="https://amzn.to/3WEzgb3" target="_blank" class="neon-button block text-center py-2 rounded-md">Ver na Amazon</a>
+      </div>
+
+      <!-- PRODUTO 3 -->
+      <div class="bg-[#1a1a1a] p-4 rounded-lg hover:scale-105 transition">
+        <img src="https://m.media-amazon.com/images/I/51zMINHnbJL._AC_SX679_.jpg" alt="Fone de ouvido" class="rounded mb-4 w-full h-48 object-cover">
+        <h3 class="text-lg font-semibold mb-2">Fone de ouvido sem fio QCY T13</h3>
+        <p class="text-gray-400 text-sm mb-4">Ideal para voce ouvir musicas ao criar seus codigos!.</p>
+        <a href="https://amzn.to/46U9lSP" target="_blank" class="neon-button block text-center py-2 rounded-md">Ver na Amazon</a>
+      </div>
+
+      <!-- PRODUTO 4 -->
+      <div class="bg-[#1a1a1a] p-4 rounded-lg hover:scale-105 transition">
+        <img src="https://m.media-amazon.com/images/I/71hvUvy0pzL._AC_SX679_.jpg" alt="Mouse Gamer" class="rounded mb-4 w-full h-48 object-cover">
+        <h3 class="text-lg font-semibold mb-2">Capa Kindle</h3>
+        <p class="text-gray-400 text-sm mb-4">Capa Compatível Com Novo Kindle 11ª Geração 2024 e 2022</p>
+        <a href="https://amzn.to/48xvB65" target="_blank" class="neon-button block text-center py-2 rounded-md">Ver na Amazon</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="mt-20 py-10 text-center text-gray-500 text-sm border-t border-gray-800">
+    © 2025 LD - Todos os direitos reservados.
+  </footer>
+
+</body>
+</html>

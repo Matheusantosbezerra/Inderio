@@ -1,28 +1,106 @@
 [
   {
-  "slug": "site-profissional-clientes",
-  "titulo": "Como Criar um Site Profissional que Conquiste Clientes",
-  "resumo": "Descubra as estratégias essenciais para criar sites profissionais que atraem e fidelizam clientes.",
-  "imagem": "/img/7642afa1-4554-4d4d-a863-a0baa016b333.png",
-  "data": "2025-09-05",
-  "conteudo": "<p>Ter um site profissional é mais do que simplesmente aparecer na internet. Ele é a <strong>vitrine do seu negócio</strong> e precisa transmitir confiança, clareza e valor para seus clientes.</p><h3 class='text-xl font-semibold mt-6 mb-2'>1. Design Limpo e Responsivo</h3><p>O design deve ser moderno, organizado e funcionar perfeitamente em qualquer dispositivo, desde desktops até smartphones. Um site responsivo melhora a experiência do usuário e influencia positivamente no SEO.</p><h3 class='text-xl font-semibold mt-6 mb-2'>2. Conteúdo Claro e Objetivo</h3><p>Os visitantes querem encontrar informações rapidamente. Utilize títulos claros, parágrafos curtos e destaque os pontos importantes para facilitar a leitura.</p><h3 class='text-xl font-semibold mt-6 mb-2'>3. Call-to-Action Eficiente</h3><p>Botões de ação como 'Entre em Contato' ou 'Solicite um Orçamento' devem ser visíveis e convidativos. Eles guiam o visitante e aumentam a chance de conversão.</p><h3 class='text-xl font-semibold mt-6 mb-2'>4. Velocidade e SEO</h3><p>Um site rápido e otimizado para motores de busca garante que seus clientes encontrem você antes da concorrência. Invista em imagens otimizadas, scripts leves e boa estrutura de links internos.</p><h3 class='text-xl font-semibold mt-6 mb-2'>5. Confiança e Prova Social</h3><p>Inclua depoimentos, casos de sucesso e certificados que mostrem a credibilidade do seu negócio. Isso aumenta a confiança e ajuda o visitante a tomar a decisão de contratar seus serviços.</p><p>Seguindo essas estratégias, seu site deixará de ser apenas uma página na web e se tornará uma poderosa ferramenta de atração e fidelização de clientes.</p>"
-}
-,
+    "slug": "site-profissional-clientes",
+    "titulo": "Como Criar um Site Profissional que Conquiste Clientes",
+    "resumo": "Descubra as estratégias essenciais para criar sites profissionais que atraem e fidelizam clientes.",
+    "imagem": "/img/7642afa1-4554-4d4d-a863-a0baa016b333.png",
+    "data": "2025-09-05",
+    "conteudo": "<p>Ter um site profissional é mais do que simplesmente aparecer na internet. Ele é a <strong>vitrine do seu negócio</strong> e precisa transmitir confiança, clareza e valor para seus clientes.</p><h3 class='text-xl font-semibold mt-6 mb-2'>1. Design Limpo e Responsivo</h3><p>O design deve ser moderno, organizado e funcionar perfeitamente em qualquer dispositivo, desde desktops até smartphones. Um site responsivo melhora a experiência do usuário e influencia positivamente no SEO.</p><h3 class='text-xl font-semibold mt-6 mb-2'>2. Conteúdo Claro e Objetivo</h3><p>Os visitantes querem encontrar informações rapidamente. Utilize títulos claros, parágrafos curtos e destaque os pontos importantes para facilitar a leitura.</p><h3 class='text-xl font-semibold mt-6 mb-2'>3. Call-to-Action Eficiente</h3><p>Botões de ação como 'Entre em Contato' ou 'Solicite um Orçamento' devem ser visíveis e convidativos. Eles guiam o visitante e aumentam a chance de conversão.</p><h3 class='text-xl font-semibold mt-6 mb-2'>4. Velocidade e SEO</h3><p>Um site rápido e otimizado para motores de busca garante que seus clientes encontrem você antes da concorrência. Invista em imagens otimizadas, scripts leves e boa estrutura de links internos.</p><h3 class='text-xl font-semibold mt-6 mb-2'>5. Confiança e Prova Social</h3><p>Inclua depoimentos, casos de sucesso e certificados que mostrem a credibilidade do seu negócio. Isso aumenta a confiança e ajuda o visitante a tomar a decisão de contratar seus serviços.</p><p>Seguindo essas estratégias, seu site deixará de ser apenas uma página na web e se tornará uma poderosa ferramenta de atração e fidelização de clientes.</p>"
+  },
   {
-  "slug": "seo-segredo-google",
-  "titulo": "Os Segredos de SEO para o Google",
-  "resumo": "Aprenda as melhores práticas de SEO para melhorar o ranking do seu site nos motores de busca.",
-  "imagem": "/img/2591c2af-3d57-4da3-b2fe-cc913b7bf7f2.png",
-  "data": "2025-09-05",
-  "conteudo": "<p>Estar bem posicionado no <strong>Google</strong> é fundamental para atrair visitantes qualificados e aumentar a visibilidade do seu negócio. Para isso, é necessário aplicar corretamente as técnicas de SEO (Search Engine Optimization).</p><h3 class='text-xl font-semibold mt-6 mb-2'>1. Pesquisa de Palavras-Chave</h3><p>Identifique os termos que seu público-alvo utiliza para buscar soluções relacionadas ao seu negócio. Use ferramentas como Google Keyword Planner e SEMrush.</p><h3 class='text-xl font-semibold mt-6 mb-2'>2. Conteúdo Relevante e Original</h3><p>Produza artigos, páginas e materiais que respondam às dúvidas do usuário. Conteúdo de qualidade é o principal critério de ranqueamento do Google.</p><h3 class='text-xl font-semibold mt-6 mb-2'>3. SEO On-Page</h3><p>Otimize títulos, descrições, URLs e utilize corretamente as tags HTML (H1, H2, meta tags). Estruture o conteúdo de forma clara e organizada.</p><h3 class='text-xl font-semibold mt-6 mb-2'>4. Link Building</h3><p>Construa autoridade com links internos bem distribuídos e backlinks de sites confiáveis e relevantes. Isso aumenta a credibilidade perante o Google.</p><h3 class='text-xl font-semibold mt-6 mb-2'>5. Performance e Mobile</h3><p>Um site rápido e otimizado para dispositivos móveis é prioridade para o ranqueamento. Comprima imagens, reduza scripts e utilize boas práticas de performance.</p><p>Seguindo essas técnicas, o seu site terá muito mais chances de conquistar as primeiras posições no Google e gerar tráfego qualificado para o seu negócio.</p>"
-}
-,
+    "slug": "task-unidade-especial-a-namorada-ideal-e-mais-os-lan-amentos-de-filmes-e-s-ries-da-semana-07-09",
+    "titulo": "Task Unidade Especial, A Namorada Ideal e mais! Os lançamentos de filmes e séries da semana (07/09)",
+    "resumo": "Você piscou e já estamos na segunda semana de setembro !",
+    "imagem": "https://tm.ibxk.com.br/2025/09/05/05160009104130.jpg",
+    "data": "2025-09-07",
+    "conteudo": "<p>Você piscou e já estamos na segunda semana de setembro ! O mês vem nos trazendo diversos lançamentos de filmes e séries nos cinemas e nas plataformas de streaming, dos gêneros mais diversos e para todos os gostos . São várias as estreias que chegam diariamente, então pode ficar um pouco difícil escolher o que assistir primeiro. Para te ajudar nesse desafio, o Minha Série traz semanalmente um compilado com cinco títulos imperdíveis que você precisa conhecer. Ao longo dos próximos dias, você poderá conferir o lançamento da minissérie Task: Unidade Especial , da HBO Max , que traz Mark Ruffalo como protagonista. Já no Prime Video estreia A Namorada Ideal , com Robin Wright e Olivia Cooke. Ainda no mundo das séries, a semana chega com a segunda temporada do drama Beauty in Black , criada por Tyler Perry. Se você prefere um bom filme, poderá conferir nos cinemas o longa português Sonhar Com Leões , e na Netflix a comédia romântica A Paris Errada .&nbsp; Confira abaixo a lista completa com os principais lançamentos de filmes e séries da semana ! Task: Unidade Especial (07/09) Minissérie c…</p>\n<p><a href=\"https://www.tecmundo.com.br/minha-serie/602014-task-unidade-especial-a-namorada-ideal-e-mais-os-lancamentos-de-filmes-e-series-da-semana-0709.htm\" target=\"_blank\" rel=\"noopener noreferrer\">Leia mais no TecMundo</a></p>"
+  },
   {
-  "slug": "design-responsivo",
-  "titulo": "Design Limpo e Responsivo",
-  "resumo": "Descubra como criar sites modernos que funcionam perfeitamente em qualquer dispositivo.",
-  "imagem": "/img/563dec47-41d3-40f3-9ba1-91166daf54ec.png",
-  "data": "2025-09-05",
-  "conteudo": "<p>Um design limpo e responsivo garante que seu site ofereça a melhor experiência em qualquer dispositivo, seja no computador, tablet ou smartphone.</p><h3 class='text-xl font-semibold mt-6 mb-2'>1. Experiência do Usuário</h3><p>Sites responsivos se adaptam ao tamanho da tela, melhorando a navegação e a usabilidade.</p><h3 class='text-xl font-semibold mt-6 mb-2'>2. SEO e Performance</h3><p>O Google prioriza sites responsivos nos resultados de busca. Além disso, páginas rápidas e leves reduzem a taxa de rejeição.</p><h3 class='text-xl font-semibold mt-6 mb-2'>3. Consistência Visual</h3><p>Um layout uniforme transmite profissionalismo e credibilidade, independente do dispositivo utilizado.</p><h3 class='text-xl font-semibold mt-6 mb-2'>4. Economia de Recursos</h3><p>Com um único design que atende todos os dispositivos, você economiza tempo e custos de manutenção.</p><p>Investir em um <strong>design responsivo</strong> é essencial para conquistar visitantes, melhorar seu SEO e aumentar as conversões do seu site.</p>"
-}
+    "slug": "zoox-da-amazon-come-a-a-oferecer-corridas-gratuitas-com-carros-aut-nomos-nos-eua",
+    "titulo": "Zoox, da Amazon, começa a oferecer corridas gratuitas com carros autônomos nos EUA",
+    "resumo": "Imagine pedir um carro por aplicativo e, de surpresa, chegar um veículo sem motorista. ",
+    "imagem": "https://tm.ibxk.com.br/2025/09/10/10160837388015.jpg",
+    "data": "2025-09-11",
+    "conteudo": "<p>Imagine pedir um carro por aplicativo e, de surpresa, chegar um veículo sem motorista. Isso já é realidade em algumas cidades dos Estados Unidos, como Los Angeles e Austin, e agora estará também disponível em Las Vegas graças à Zoox, subsidiária da Amazon . O anúncio foi feito na manhã desta quarta-feira (10). As viagens precisam ser solicitadas diretamente do aplicativo da Zoox e, inicialmente, serão gratuitas — porém, limitadas . Entre os locais escolhidos para esse início, estão diversos resorts e áreas de entretenimento, como o Resorts World Las Vegas e o Top Golf . Segundo a empresa, o plano é expandir para mais locais dentro da cidade com o passar dos meses. Fundada em 2014, a Zoox surgiu como uma startup de tecnologia de veículos autônomos que chamou muito a atenção pelo design simétrico e sem volante de sua frota de robotaxis. Segundo um de seus fundadores, Tim Kentley-Klay, o que eles estavam criando era uma “carruagem sem cavalos” que visava oferecer uma experiência como “a Disneylândia nas ruas” .&nbsp; Em 2020, foi adquirida pela Amazon por $1.2 bilhão e, no começo desse…</p>\n<p><a href=\"https://www.tecmundo.com.br/auto/406964-zoox-da-amazon-comeca-a-oferecer-corridas-gratuitas-com-carros-autonomos-nos-eua.htm\" target=\"_blank\" rel=\"noopener noreferrer\">Leia mais no TecMundo</a></p>"
+  },
+  {
+    "slug": "amd-revela-novo-ryzen-5600f-para-placas-m-e-am4-e-cpus-pro",
+    "titulo": "AMD revela novo Ryzen 5600F para placas-mãe AM4 e CPUs PRO",
+    "resumo": "Nos últimos dias, a AMD fez uma série de novos anúncios envolvendo processadores entusiastas e de entrada. ",
+    "imagem": "https://tm.ibxk.com.br/2025/09/18/18173955985105.jpg",
+    "data": "2025-09-19",
+    "conteudo": "<p>Nos últimos dias, a AMD fez uma série de novos anúncios envolvendo processadores entusiastas e de entrada. O time vermelho revelou o novo Ryzen 5 5600F, Ryzen 9000F e o Ryzen 7400F, além de modelos Ryzen PRO, voltados para núcleos de atividades profissionais ou corporativas. Pouco mais de 9 anos após o lançamento do soquete AM4 em 2016, a AMD continua lançando novos processadores. O Ryzen 5 5600F é bem similar ao Ryzen 5600 regular, com seis núcleos na arquitetura Zen 3, 12 threads e frequência máxima de 4 GHz, deixando de fora apenas os gráficos integrados — por isso o sufixo “F”. Confira: Ryzen 9 9950X3D é a melhor CPU para qualquer tarefa! Veja review com benchmarks e testes A equipe vermelha também anunciou em seu site oficial os novos Ryzen 7 9700F e o Ryzen 5 9500F. O primeiro é um modelo baseado no Ryzen 9700X , com oito núcleos Zen 5 a no máximo 5,5 GHz, enquanto o segundo possui somente seis núcleos a 5 GHz na mesma arquitetura. É importante notar que todos esses processadores não têm vídeo integrado, necessitando de uma GPU dedicada para funcionamento (Imagem: GettyImages)…</p>\n<p><a href=\"https://www.tecmundo.com.br/produto/407186-amd-revela-novo-ryzen-5600f-para-placas-mae-am4-e-cpus-pro.htm\" target=\"_blank\" rel=\"noopener noreferrer\">Leia mais no TecMundo</a></p>"
+  },
+  {
+    "slug": "apple-lanca-iphone-17-com-bateria-de-grafeno-e-ia-integrada",
+    "titulo": "Apple lança iPhone 17 com bateria de grafeno e IA integrada",
+    "resumo": "O novo iPhone promete revolucionar o mercado com maior autonomia e recursos de inteligência artificial avançada.",
+    "imagem": "https://images.macrumors.com/article-new/2024/07/Generic-iPhone-17-Feature-With-Full-Width-Dynamic-Island-single-camera.jpg",
+    "data": "2025-09-22",
+    "conteudo": "<p>A Apple anunciou oficialmente o <strong>iPhone 17</strong>, trazendo como principal novidade a <strong>bateria de grafeno</strong>, que promete até 40% mais autonomia em comparação ao modelo anterior. Além disso, o dispositivo conta com um processador A19 Bionic com <strong>IA embarcada</strong>, permitindo traduções instantâneas offline, otimização automática de fotos e recursos avançados de segurança.</p><p>O design também recebeu ajustes, com bordas mais finas e uma tela Super Retina XDR ProMotion de 6,8 polegadas. A Apple aposta fortemente na sustentabilidade, incluindo materiais 100% recicláveis na construção.</p><p>O iPhone 17 estará disponível em pré-venda a partir de 29 de setembro, com preços a partir de US$ 1.199.</p>"
+  },
+  {
+    "slug": "google-apresenta-gemini-2-0-ia-mais-rapida-e-multimodal",
+    "titulo": "Google apresenta Gemini 2.0, IA mais rápida e multimodal",
+    "resumo": "A nova versão do modelo de IA do Google chega com melhorias significativas em velocidade e compreensão multimodal.",
+    "imagem": "https://th.bing.com/th/id/OIP.jLbjADCnnW8MDuMuBwyH6AHaEK?w=328&h=184&c=7&r=0&o=7&pid=1.7&rm=3",
+    "data": "2025-09-23",
+    "conteudo": "<p>O Google anunciou o <strong>Gemini 2.0</strong>, evolução de seu modelo de inteligência artificial. A novidade promete processamento <strong>três vezes mais rápido</strong> que a versão anterior, além de maior precisão em tarefas multimodais, como análise simultânea de texto, imagem, áudio e vídeo.</p><p>Segundo a empresa, o Gemini 2.0 foi projetado para ser utilizado em aplicativos de produtividade, assistentes virtuais, tradução em tempo real e até criação de conteúdos complexos, como vídeos educativos e simulações 3D.</p><p>A tecnologia já está disponível no Google Cloud e deve chegar em breve ao Google Workspace, integrando Gmail, Docs e Meet.</p>"
+  },
+  {
+    "slug": "tesla-apresenta-robotaxi-autonomo-para-2026",
+    "titulo": "Tesla apresenta Robotaxi totalmente autônomo para 2026",
+    "resumo": "Elon Musk revela veículo sem volante e sem pedais, prometendo revolucionar o transporte urbano.",
+    "imagem": "https://th.bing.com/th/id/OIP.AZp4YKFKu41pPBPYDzuAYwHaDt?w=350&h=175&c=7&r=0&o=7&pid=1.7&rm=3",
+    "data": "2025-09-24",
+    "conteudo": "<p>A <strong>Tesla</strong> apresentou seu aguardado <strong>Robotaxi</strong>, um veículo 100% autônomo que dispensa volante e pedais. O modelo foi desenvolvido para rodar em frotas de compartilhamento, permitindo que usuários solicitem corridas pelo aplicativo da Tesla.</p><p>Segundo Elon Musk, os primeiros Robotaxis devem estar disponíveis em 2026, começando por grandes cidades dos Estados Unidos. O veículo é baseado em um design futurista, com capacidade para até 6 passageiros, conectividade 6G e recursos avançados de entretenimento a bordo.</p><p>A Tesla afirma que o custo por corrida será até 70% mais barato que serviços de aplicativos tradicionais como Uber e Lyft.</p>"
+  },
+  {
+    "slug": "microsoft-anuncia-windows-13-com-interface-holografica",
+    "titulo": "Microsoft anuncia Windows 13 com interface holográfica",
+    "resumo": "O novo sistema operacional da Microsoft traz realidade aumentada integrada e foco em produtividade imersiva.",
+    "imagem": "https://th.bing.com/th/id/OIP.rwVBr-HTU8ltgOzGQwoD_AHaDX?w=288&h=158&c=7&r=0&o=7&pid=1.7&rm=3",
+    "data": "2025-09-25",
+    "conteudo": "<p>A Microsoft revelou o <strong>Windows 13</strong>, que chega com uma <strong>interface holográfica</strong> inédita, permitindo interações em realidade aumentada sem a necessidade de óculos especiais. O recurso é possível graças à tecnologia de projeção adaptativa desenvolvida pela empresa.</p><p>Entre as novidades estão a multitarefa imersiva, integração nativa com Copilot 2.0 e suporte avançado para dispositivos de IoT. O Windows 13 também traz melhorias significativas em segurança, incluindo autenticação biométrica multicamadas.</p><p>A versão para desenvolvedores será liberada em outubro, e o lançamento oficial deve ocorrer em março de 2026.</p>"
+  },
+  {
+    "slug": "meta-lanca-oculus-quest-4-com-graficos-8k-e-realidade-mista-avancada",
+    "titulo": "Meta lança Oculus Quest 4 com gráficos 8K e realidade mista avançada",
+    "resumo": "Novo headset da Meta promete redefinir a experiência de realidade virtual e aumentada.",
+    "imagem": "https://tse2.mm.bing.net/th/id/OIP.XlVwAjSmGnOadhaQclrC4gHaEK?cb=12&rs=1&pid=ImgDetMain&o=7&rm=3",
+    "data": "2025-09-27",
+    "conteudo": "<p>A <strong>Meta</strong> anunciou o lançamento do <strong>Oculus Quest 4</strong>, um headset que une realidade virtual e aumentada em uma única plataforma. O novo modelo traz <strong>resolução 8K</strong>, sensores oculares aprimorados e controles hápticos de última geração.</p><p>Com suporte total ao metaverso Horizon Worlds, o dispositivo também permite uso profissional, oferecendo integração com ferramentas de produtividade como o Meta WorkHub e suporte nativo para reuniões holográficas.</p><p>O Quest 4 estará disponível em outubro com preço inicial de US$ 699.</p>"
+  },
+  {
+    "slug": "samsung-apresenta-galaxy-ring-com-monitoramento-avancado-de-saude",
+    "titulo": "Samsung apresenta Galaxy Ring com monitoramento avançado de saúde",
+    "resumo": "Anel inteligente da Samsung chega para competir com o Oura Ring, com sensores mais precisos e IA integrada.",
+    "imagem": "https://federalcubatao.com.br/wp-content/uploads/2025/02/1MM-245.webp",
+    "data": "2025-09-28",
+    "conteudo": "<p>A <strong>Samsung</strong> revelou oficialmente o <strong>Galaxy Ring</strong>, seu novo anel inteligente focado em <strong>monitoramento de saúde e sono</strong>. O dispositivo mede batimentos cardíacos, saturação de oxigênio, estresse e até indicadores de fertilidade, com precisão clínica.</p><p>Usando IA embarcada, o Galaxy Ring aprende com os hábitos do usuário para oferecer recomendações personalizadas. Ele se conecta ao app Samsung Health e promete até 7 dias de bateria.</p><p>O produto chega ao mercado global em novembro, custando cerca de US$ 299.</p>"
+  },
+  {
+    "slug": "openai-revela-chatgpt-6-com-voz-natural-e-criacao-de-videos",
+    "titulo": "OpenAI revela ChatGPT 6 com voz natural e criação de vídeos",
+    "resumo": "Nova geração do ChatGPT traz conversas por voz ultrarrealistas e geração automática de vídeos curtos.",
+    "imagem": "https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&w=1280&q=80",
+    "data": "2025-09-29",
+    "conteudo": "<p>A <strong>OpenAI</strong> apresentou o <strong>ChatGPT 6</strong>, nova versão do seu assistente de IA. A principal novidade é o <strong>modo de conversa por voz natural</strong>, que simula entonações e emoções humanas em tempo real.</p><p>Outra inovação é a criação de <strong>vídeos automáticos curtos</strong> a partir de comandos de texto, ideal para criadores de conteúdo. A ferramenta usa modelos multimodais que combinam texto, áudio e imagem.</p><p>O ChatGPT 6 já está em testes no ChatGPT Plus e deve chegar oficialmente em dezembro de 2025.</p>"
+  },
+  {
+    "slug": "nvidia-lanca-geforce-rtx-5090-com-desempenho-3x-superior",
+    "titulo": "NVIDIA lança GeForce RTX 5090 com desempenho 3x superior",
+    "resumo": "Placa promete revolucionar o mercado gamer com arquitetura Blackwell e suporte total a IA generativa.",
+    "imagem": "https://cdn.wccftech.com/wp-content/uploads/2024/10/NVIDIA-GeForce-RTX-5090-GPU.jpg",
+    "data": "2025-09-30",
+    "conteudo": "<p>A <strong>NVIDIA</strong> lançou oficialmente a <strong>GeForce RTX 5090</strong>, topo de linha da nova geração de GPUs. Com arquitetura <strong>Blackwell</strong>, a placa entrega até <strong>3x mais desempenho</strong> que a RTX 4090, além de eficiência energética superior.</p><p>O modelo traz suporte total a IA generativa, permitindo uso otimizado em renderização neural e criação de conteúdo 3D automatizada. O DLSS 4 também estreia com ganhos expressivos em ray tracing e upscaling.</p><p>A RTX 5090 chega às lojas em outubro por US$ 1.999.</p>"
+  },
+  {
+    "slug": "netflix-anuncia-planos-com-ia-para-sugestoes-personalizadas-em-tempo-real",
+    "titulo": "Netflix anuncia planos com IA para sugestões personalizadas em tempo real",
+    "resumo": "Plataforma de streaming usará IA para recomendar séries e filmes com base nas emoções do espectador.",
+    "imagem": "https://tse3.mm.bing.net/th/id/OIP.zFAnVjyIdcAatO_8jAUXcAHaE8?cb=12&w=1024&h=683&rs=1&pid=ImgDetMain&o=7&rm=3",
+    "data": "2025-10-01",
+    "conteudo": "<p>A <strong>Netflix</strong> revelou um novo sistema de recomendação baseado em <strong>inteligência artificial emocional</strong>. A tecnologia analisa expressões faciais, tom de voz e histórico de consumo para sugerir conteúdos em tempo real.</p><p>Os testes iniciais mostraram que o novo recurso aumenta em até 40% o tempo médio de visualização. A empresa também planeja usar IA para criar trailers personalizados de acordo com o gosto de cada usuário.</p><p>A novidade começa a ser testada nos EUA e deve chegar ao Brasil em 2026.</p>"
+  }
 ]
