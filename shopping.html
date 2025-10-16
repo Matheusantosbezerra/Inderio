@@ -41,6 +41,14 @@
   gtag('config', 'G-TP2ZSRT6X8');
 </script>
 
+<script>
+  setTimeout(() => {
+    const card = document.getElementById('shopping-card');
+    card.style.opacity = '0';       // efeito fade out
+    setTimeout(() => card.remove(), 500); // remove após animação (0.5s)
+  }, 5000); // 5 segundos
+</script>
+
 
 <body>
 
@@ -58,7 +66,7 @@
   </nav>
 
 
-  <div class="fixed bottom-20 right-5 bg-[#1a1a1a] border border-[#9eff00] rounded-lg p-4 shadow-lg w-60 animate-bounce">
+  <div id="shopping-card" class="fixed bottom-20 right-5 bg-[#1a1a1a] border border-[#9eff00] rounded-lg p-4 shadow-lg w-60 animate-bounce">
     <h4 class="text-[#9eff00] font-bold text-lg mb-2">Blog</h4>
     <p class="text-gray-300 text-sm mb-3">Confira as novidades do nosso blog!</p>
     <a href="/blog.html" class="neon-button px-4 py-2 rounded-md text-center block">Explorar</a>
