@@ -42,28 +42,33 @@ body {
     padding: 16px;
     display: flex;
     flex-direction: column;
+    gap: 12px;
     align-items: center;
+    margin: 20px auto;
   }
 
   .header_blog ul {
-    margin: 0;
+    margin: 0 auto !important;
+    padding: 0;
     display: flex;
-    justify-content: center;
+    justify-content: center !important;
     gap: 12px;
     flex-wrap: wrap;
+    width: 100%;
   }
 
-  .header_blog div {
-    margin: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  .header_blog ul li {
+    text-align: center;
+    width: auto;
   }
 
-  /* Esconde a logo apenas no mobile */
   .header_blog .logo,
   nav .logo {
     display: none;
+  }
+
+  nav {
+    padding: 15px 20px;
   }
 }
 
