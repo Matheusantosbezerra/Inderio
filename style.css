@@ -34,6 +34,39 @@ body {
 }
 /* Botão WhatsApp */
 
+
+
+@media (max-width: 640px) {
+  .header_blog {
+    width: 80%;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .header_blog ul {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    flex-wrap: wrap;
+  }
+
+  .header_blog div {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  /* Esconde a logo apenas no mobile */
+  .header_blog .logo,
+  nav .logo {
+    display: none;
+  }
+}
+
 /*header blog*/
 
 .header_blog{
