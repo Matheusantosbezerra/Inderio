@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Natal Tech 🎄 | Inderio Development</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+  <link rel="icon" type="image/png" href="/img/Logo_2-removebg-preview.png">
+  <style>
+    body {
+      background-color: #0b0e13;
+      color: white;
+      font-family: 'Poppins', sans-serif;
+    }
+    .neon-button {
+      background-color: #9eff00;
+      color: black;
+      font-weight: bold;
+      transition: all 0.3s ease;
+    }
+    .neon-button:hover {
+      background-color: #c4ff4d;
+      transform: scale(1.05);
+    }
+    /* Carrossel */
+    .carousel {
+      position: relative;
+      overflow: hidden;
+    }
+    .carousel-track {
+      display: flex;
+      transition: transform 0.8s ease-in-out;
+    }
+    .carousel-slide {
+      min-width: 100%;
+      flex-shrink: 0;
+      position: relative;
+    }
+    .carousel-slide img {
+      width: 100%;
+      height: 450px;
+      object-fit: cover;
+      border-bottom: 3px solid #9eff00;
+    }
+  </style>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="flex justify-between items-center px-6 py-4 bg-[#0f1117] border-b border-[#9eff00]">
+  <img src="/img/Logo_2-removebg-preview.png" alt="logo" class="h-12">
+  <ul class="hidden md:flex gap-6 text-white">
+    <li><a href="/" class="hover:text-[#9eff00]">Home</a></li>
+    <li><a href="/shopping.html" class="hover:text-[#9eff00]">Shopping Tech</a></li>
+    <li><a href="/blog.html" class="hover:text-[#9eff00]">Blog</a></li>
+    <li><a href="/#contact" class="hover:text-[#9eff00]">Contato</a></li>
+  </ul>
+</nav>
+
+<!-- Hero Carrossel -->
+<section class="carousel">
+  <div id="carouselTrack" class="carousel-track">
+    <div class="carousel-slide">
+      <a href="https://amzn.to/4hrxELB" target="_blank">
+        <img src="/img/ChatGPT Image 22 de out. de 2025, 23_27_06.png" alt="Banner Natal Amazon 1">
+      </a>
+    </div>
+    <div class="carousel-slide">
+      <a href="https://amzn.to/3JqVNVM" target="_blank">
+        <img src="/img/banner.png" alt="Banner Natal Amazon 2">
+      </a>
+    </div>
+  </div>
+
+  <!-- Controles -->
+  <button id="prevBtn" class="absolute top-1/2 left-3 transform -translate-y-1/2 bg-[#9eff00] text-black p-3 rounded-full shadow hover:scale-110">
+    <i class="fas fa-chevron-left"></i>
+  </button>
+  <button id="nextBtn" class="absolute top-1/2 right-3 transform -translate-y-1/2 bg-[#9eff00] text-black p-3 rounded-full shadow hover:scale-110">
+    <i class="fas fa-chevron-right"></i>
+  </button>
+</section>
+
+<!-- Catálogo de Produtos -->
+<section id="produtos" class="py-16 px-6 max-w-7xl mx-auto">
+  <h2 class="text-3xl font-bold text-center text-[#9eff00] mb-10">🎁 Catálogo Natal Tech</h2>
+
+  <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
+    
+    <!-- Produto -->
+    <div class="bg-[#1a1f29] rounded-2xl shadow-lg overflow-hidden hover:scale-105 transition">
+      <img src="https://m.media-amazon.com/images/I/91IS2wKwzyL._SY342_.jpg" class="w-full h-48 object-cover">
+      <div class="p-4 text-center">
+        <h3 class="font-semibold text-lg mb-2">Scarlet Devotion: Um reconto de Chapeuzinho Vermelho (Dark Tales Livro 1)</h3>
+        <p class="text-gray-400 mb-3">STALKING ROMANCE — SLOW BURN — ENEMIES TO LOVERS — RECONTO DE CONTO DE FADAS - Chapeuzinho Vermelho</p>
+        <a href="https://amzn.to/474bsU7" target="_blank" class="neon-button px-4 py-2 rounded-md block">Comprar</a>
+      </div>
+    </div>
+
+    <div class="bg-[#1a1f29] rounded-2xl shadow-lg overflow-hidden hover:scale-105 transition">
+      <img src="https://m.media-amazon.com/images/I/71cO2eDo3ML._AC_SX679_.jpg" class="w-full h-48 object-cover">
+      <div class="p-4 text-center">
+        <h3 class="font-semibold text-lg mb-2">Guirlanda de Natal</h3>
+        <p class="text-gray-400 mb-3">Traga o espírito natalino para sua casa.</p>
+        <a href="https://amzn.to/4oA6FQ2" target="_blank" class="neon-button px-4 py-2 rounded-md block">Comprar</a>
+      </div>
+    </div>
+
+    <div class="bg-[#1a1f29] rounded-2xl shadow-lg overflow-hidden hover:scale-105 transition">
+      <img src="https://m.media-amazon.com/images/I/71FU3U8oG2L._AC_SX679_.jpg" class="w-full h-48 object-cover">
+      <div class="p-4 text-center">
+        <h3 class="font-semibold text-lg mb-2">Árvore de Natal 1,5m</h3>
+        <p class="text-gray-400 mb-3">Monte um ambiente festivo e moderno.</p>
+        <a href="https://www.amazon.com.br/" target="_blank" class="neon-button px-4 py-2 rounded-md block">Comprar</a>
+      </div>
+    </div>
+
+    <div class="bg-[#1a1f29] rounded-2xl shadow-lg overflow-hidden hover:scale-105 transition">
+      <img src="https://m.media-amazon.com/images/I/71i1t8I4MOL._AC_SL1500_.jpg" class="w-full h-48 object-cover">
+      <div class="p-4 text-center">
+        <h3 class="font-semibold text-lg mb-2">Enfeites Natalinos 24 unid</h3>
+        <p class="text-gray-400 mb-3">Deixe sua árvore completa e colorida.</p>
+        <a href="https://www.amazon.com.br/" target="_blank" class="neon-button px-4 py-2 rounded-md block">Comprar</a>
+      </div>
+    </div>
+
+    <div class="bg-[#1a1f29] rounded-2xl shadow-lg overflow-hidden hover:scale-105 transition">
+      <img src="https://m.media-amazon.com/images/I/71IhvzYv3bL._AC_SL1500_.jpg" class="w-full h-48 object-cover">
+      <div class="p-4 text-center">
+        <h3 class="font-semibold text-lg mb-2">Toalha de Mesa Natalina</h3>
+        <p class="text-gray-400 mb-3">Decoração perfeita para a ceia.</p>
+        <a href="https://www.amazon.com.br/" target="_blank" class="neon-button px-4 py-2 rounded-md block">Comprar</a>
+      </div>
+    </div>
+
+    <div class="bg-[#1a1f29] rounded-2xl shadow-lg overflow-hidden hover:scale-105 transition">
+      <img src="https://m.media-amazon.com/images/I/71AbvMB1RRL._AC_SL1500_.jpg" class="w-full h-48 object-cover">
+      <div class="p-4 text-center">
+        <h3 class="font-semibold text-lg mb-2">Luzes LED Cores Quentes</h3>
+        <p class="text-gray-400 mb-3">Ambiente aconchegante e festivo.</p>
+        <a href="https://www.amazon.com.br/" target="_blank" class="neon-button px-4 py-2 rounded-md block">Comprar</a>
+      </div>
+    </div>
+
+    <!-- Adicione mais produtos -->
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="py-16 text-center bg-[#1a1a1a] border-t border-[#9eff00]">
+  <h3 class="text-2xl font-bold text-[#9eff00] mb-3">🎅 Prepare seu Natal com o melhor da Amazon!</h3>
+  <p class="text-gray-400 mb-6">Aproveite os descontos e decore seu lar com estilo tech.</p>
+  <a href="https://wa.me/5547984067384" target="_blank" class="neon-button px-8 py-3 rounded-md">Falar com um Especialista</a>
+</section>
+
+<!-- Footer -->
+<footer class="py-6 text-center text-gray-400 border-t border-[#9eff00]">
+  © 2025 Inderio Development — Todos os direitos reservados.
+</footer>
+
+<!-- Script do Carrossel -->
+<script>
+  const track = document.getElementById("carouselTrack");
+  const slides = document.querySelectorAll(".carousel-slide");
+  const next = document.getElementById("nextBtn");
+  const prev = document.getElementById("prevBtn");
+  let index = 0;
+
+  function showSlide(i) {
+    if (i >= slides.length) index = 0;
+    else if (i < 0) index = slides.length - 1;
+    else index = i;
+    track.style.transform = `translateX(${-index * 100}%)`;
+  }
+
+  next.addEventListener("click", () => showSlide(index + 1));
+  prev.addEventListener("click", () => showSlide(index - 1));
+
+  setInterval(() => showSlide(index + 1), 5000);
+</script>
+
+</body>
+</html>
